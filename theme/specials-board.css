@@ -1,0 +1,46 @@
+/**
+ * "
+ *  Using "Specials Board" color palette from Coda 2, courtesy of Panic.
+ *
+ *  Ported by Rutger Valk-van de Klundert @ Lightspeed HQ
+ * "
+ */
+
+.CodeMirror.cm-s-specials-board{background:#393939;color:#ebe7e2}
+.CodeMirror.cm-s-specials-board .CodeMirror,.CodeMirror.cm-s-specials-board .CodeMirror-scroll{color:#e6e1dc}
+.CodeMirror.cm-s-specials-board .CodeMirror pre{padding:0 15px 0 7px}
+.CodeMirror.cm-s-specials-board .show-line-padding .CodeMirror-focused .CodeMirror-activeline-background{box-shadow:inset 15px 0 0 0 #000}
+.CodeMirror.cm-s-specials-board .CodeMirror-activeline .CodeMirror-activeline-gutter,.CodeMirror.cm-s-specials-board .CodeMirror-activeline-background{background:#292829}
+.CodeMirror.cm-s-specials-board .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt{background:rgba(0,0,0,.2);color:#fff}
+.CodeMirror.cm-s-specials-board .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt{color:#767676}
+.CodeMirror.cm-s-specials-board .cm-atom,.CodeMirror.cm-s-specials-board .cm-hr{color:#6c99bb}
+.CodeMirror.cm-s-specials-board .cm-string,.CodeMirror.cm-s-specials-board .cm-string-2{font-style:italic;color:#b4c75f}
+.CodeMirror.cm-s-specials-board .cm-attribute,.CodeMirror.cm-s-specials-board .cm-number,.CodeMirror.cm-s-specials-board .cm-plus{color:#3472ad}
+.CodeMirror.cm-s-specials-board .cm-builtin{color:#d54a20}
+.CodeMirror.cm-s-specials-board .cm-property{color:#d68733}
+.CodeMirror.cm-s-specials-board .cm-meta{color:#9d9d9d}
+.CodeMirror.cm-s-specials-board .cm-variable{color:#b17371}
+.CodeMirror.cm-s-specials-board .cm-variable-2{color:#d0d0ff}
+.CodeMirror.cm-s-specials-board .cm-variable-3{color:#6c99bb}
+.CodeMirror.cm-s-specials-board .cm-error,.CodeMirror.cm-s-specials-board .cm-minus{color:#a82b26}
+.CodeMirror.cm-s-specials-board .cm-header{color:#d85896}
+.CodeMirror.cm-s-specials-board .cm-link{color:#a5c261;font-underline:underline}
+.CodeMirror.cm-s-specials-board .cm-rangeinfo{color:#6c71c4}
+.CodeMirror.cm-s-specials-board .cm-qualifier,.CodeMirror.cm-s-specials-board .cm-quote,.CodeMirror.cm-s-specials-board .cm-tag{color:#e6e1dc}
+.CodeMirror.cm-s-specials-board .cm-m-css.cm-builtin,.CodeMirror.cm-s-specials-board .cm-m-css.cm-qualifier,.CodeMirror.cm-s-specials-board .cm-m-css.cm-tag{color:#b4afaa}
+.CodeMirror.cm-s-specials-board .cm-tag{color:#ffc66d}
+.CodeMirror.cm-s-specials-board .cm-attribute{color:#cc7832}
+.CodeMirror.cm-s-specials-board .cm-operator{color:#b7b300}
+.CodeMirror.cm-s-specials-board .CodeMirror .CodeMirror-selected,.CodeMirror.cm-s-specials-board .CodeMirror-selected{background:#111}
+.CodeMirror.cm-s-specials-board .CodeMirror-searching.searching-current-match{background-color:#f6a644}
+.CodeMirror.cm-s-specials-board .CodeMirror-matchingbracket,.CodeMirror.cm-s-specials-board .CodeMirror-matchingtag{border:0;border-bottom:1px solid rgba(255,255,255,.5)}
+.CodeMirror.cm-s-specials-board .cm-m-clike.CodeMirror-matchingbracket,.CodeMirror.cm-s-specials-board .cm-m-clike.cm-m-javascript.CodeMirror-matchingtag,.CodeMirror.cm-s-specials-board .cm-m-css.CodeMirror-matchingbracket,.CodeMirror.cm-s-specials-board .cm-m-css.cm-m-javascript.CodeMirror-matchingtag,.CodeMirror.cm-s-specials-board .cm-m-javascript.CodeMirror-matchingbracket,.CodeMirror.cm-s-specials-board .cm-m-javascript.cm-m-javascript.CodeMirror-matchingtag{background-color:rgba(108,153,187,.45);color:inherit!important}
+.CodeMirror.cm-s-specials-board .CodeMirror-overwrite .CodeMirror-cursor{border-left:none!important;border-bottom:1px solid #e6e1dc}
+.CodeMirror.cm-s-specials-board .CodeMirror-gutters{background-color:#353535;border-right:none}
+.CodeMirror.cm-s-specials-board .CodeMirror-linenumber{font-size:.8em;line-height:1.7em}
+.CodeMirror.cm-s-specials-board .CodeMirror-searching{background-color:#d3cd69}
+.CodeMirror.cm-s-specials-board .CodeMirror-cursor{border-left:1px solid #e6e1dc!important}
+.CodeMirror.cm-s-specials-board .view-pane .image-view{color:#e6e1dc}
+.CodeMirror.cm-s-specials-board .cm-comment{color:#797979;font-style:italic}
+.CodeMirror.cm-s-specials-board .cm-keyword{color:#7baac7}
+.CodeMirror.cm-s-specials-board .cm-def{color:#b4c75f}

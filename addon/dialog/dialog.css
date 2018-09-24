@@ -6,6 +6,8 @@
   padding: .1em .8em;
   overflow: hidden;
   color: inherit;
+  display: flex;
+  display: -webkit-flex;
 }
 
 .CodeMirror-dialog-top {
@@ -29,4 +31,7 @@
 
 .CodeMirror-dialog button {
   font-size: 70%;
+  margin: 2px 0px 2px 10px;
+  padding: 0 8px;
+  color: #333;
 }

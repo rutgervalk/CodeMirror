@@ -120,6 +120,20 @@
         setTimeout(function() { if (blurring <= 0) close(); }, 200);
       });
       CodeMirror.on(b, "focus", function() { ++blurring; });
+
+      CodeMirror.on(b, "keydown", function(e) {
+        // Hide confirm dialog on escape key press
+        if (e.keyCode == 27) {
+          CodeMirror.e_stop(e);
+          close();
+        }
+        // Pass onkeydown option
+        if (options && options.onKeyDown) {
+          CodeMirror.e_stop(e);
+          close();
+          options.onKeyDown(e);
+        }
+      });
     }
   });
 
