@@ -4,10 +4,7 @@
 // Define search commands. Depends on dialog.js or another
 // implementation of the openDialog method.
 
-// Replace works a little oddly -- it will do the replace on the next
-// Ctrl-G (or whatever is bound to findNext) press. You prevent a
-// replace by making sure the match is no longer selected when hitting
-// Ctrl-G.
+// Modified by Rutger Valk-van de Klundert @ Lightspeed HQ
 
 (function(mod) {
   if (typeof exports == "object" && typeof module == "object") // CommonJS
@@ -288,6 +285,7 @@
             }
             cm.setSelection(cursor.from(), cursor.to());
             cm.scrollIntoView({from: cursor.from(), to: cursor.to()}, 50);
+
             confirmDialog(cm, doReplaceConfirm, "Replace?", [function() {doReplace(match);}, advance, function() {replaceAll(cm, query, text)}], function(event){
               passKeyDown(cm, event);
             });

@@ -1,0 +1,23 @@
+.cm-indent-guides {
+    position: relative;
+    padding: 0px 0 7px;
+}
+.cm-indent-guides:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+  height: 100%;
+  border-left: 1px solid #fff;
+  margin-top: 1px;
+}
+.cm-indent-guides:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  opacity: 0.1;
+  height: 100%;
+  border-left: 1px solid #000;
+  margin-top: 1px;
+  left: 0;
+}
